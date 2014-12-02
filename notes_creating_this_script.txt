@@ -1,0 +1,54 @@
+notes creating this script.txt
+
+GENERAL KNOWLEDGE
+1. always build new directory with bundle gem
+	see: http://www.smashingmagazine.com/2014/04/08/how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my/
+
+	Then you will get a logical folder structure
+
+
+2. configure SUBLIME to always save by default the folder
+  - cmd + shift + p
+  - search for user
+  - copy paste this script:
+
+  {
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".hg",
+    "CVS",
+    "tmp/cache",
+    ".html"
+  ],
+  "font_size": 17,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "save_on_focus_lost": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space:": true,
+  "trim_trailing_white_space_on_save": true
+}
+
+3. Nokogiri breaks
+  - brew is missing, use this line to install Homebrew first:
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+4. if require doesn't work, try
+  - require_relative
+      it starts in the path of this file
+
+THE SCRIPT ITSELF
+2. Import results from Google Form into array
+	- Google has a Google Spreadsheets API
+		- probably use that for import, because results are pushed in there
+	- Apigee: https://apigee.com/resources/google-spreadsheets
+	- Search rubygems.org for potential gems
+		- there are some specific ones like http://rubygems.org/gems/parallel588_google_drive
+			- but they only have a few thousand downloads
+
+		- there is Google Drive with hundreds of thousands of downloads
