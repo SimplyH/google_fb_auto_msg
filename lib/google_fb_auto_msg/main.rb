@@ -19,13 +19,12 @@ module GoogleIntegration
       @spreadsheet = session.spreadsheet_by_key(Env.spreadsheet_key).worksheets[0]
     end
 
-    def print_spreadsheet
-
+    def prints_spreadsheet_test
       # Gets content of A2 cell.
-      puts @spreadsheet[2, 1]  #==> "hoge"
+      puts @spreadsheet[2, 1]  #==> "12/1/2014 14:27:23"
     end
   end
 end
 
 app = GoogleIntegration::ConnectWithGoogleSpreadsheet.new
-app.print_spreadsheet
+app.prints_spreadsheet_test
