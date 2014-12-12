@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 require "rubygems"
-require "rspec"
+gem "rspec"
 
 #gem "google_drive"
 #gem "env"

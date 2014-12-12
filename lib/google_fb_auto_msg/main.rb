@@ -39,5 +39,3 @@ module GoogleIntegration
   end
 end
 
-app = GoogleIntegration::ConnectWithGoogleSpreadsheet.new
-app.prints_spreadsheet_test
