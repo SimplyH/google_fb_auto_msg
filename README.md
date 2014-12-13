@@ -1,6 +1,38 @@
 # GoogleFbAutoMsg
 
-TODO: Write a gem description
+Integration to Facebook, GoogleApps, GooglePlus and Twitter
+
+## User Personas
+
+The Recruiter
+The Candidates (job seekers)
+The employers (the companies)
+The employees of the employer
+Friends of candidates
+The System
+
+## User Stories
+
+
+As a Candidate, I want to upload my resume, so that the Recruiter can have access to my profile.
+
+
+As a Recruiter, I want to get Candidates, to fill in small forms so that I can update their candidate profile.
+As a Recruiter, I want to thank the Candidates for completing the form by email.
+As a Recruiter, I want to thank the Candidates in their social network.
+As a Recruiter, I want to connect to Candidates in Facebook so that I can do communicate with them.
+As a Recruiter, I want to log with my Facebook Account so that the System can retrieves
+
+
+As the System, I want to know the Facebook friends of the Recruiter so that I can act interact with the Candidates them on Facebook.
+As the System, I want to have access to the Facebook friends of the Recruiter
+
+As the System, I want to know the Recruiter details.
+As the System, I want to know which Candidates have completed the form
+As the System, I want to know if the Candidate has completed the form, so that I can take appropriate action on Facebook
+As the System, I want to know if the Candidate has completed the form so that I can thank you on Google+
+As the System, I want to know if the Candidate has completed the form so that I can thank you on email
+As the System, I want to know if the Candidate has completed the form so that I can thank you on Facebook
 
 ## Installation
 

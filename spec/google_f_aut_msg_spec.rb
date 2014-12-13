@@ -1,11 +1,11 @@
 require 'spec_helper'
 require_relative '../lib/google_fb_auto_msg'
 
-module GoogleIntegration
-  describe ConnectWithGoogleSpreadsheet do
+module Integration
+  describe WithGoogleSpreadsheet do
     # it connects
     context 'Connection Status' do
-      it { expect(ConnectWithGoogleSpreadsheet.new.connected).to be true }
+      it { expect(subject.connected).to be true }
     end
 
     # it reads
@@ -13,6 +13,5 @@ module GoogleIntegration
 
     # it writes
     it { should respond_to(:publish_message) }
-
   end
 end

@@ -2,10 +2,10 @@ require "env"
 require "rubygems"
 require "google_drive"
 
-module GoogleIntegration
+module Integration
   # Your code goes here...
 
-  class ConnectWithGoogleSpreadsheet
+  class WithGoogleSpreadsheet
     attr_accessor :connected
 
     def initialize
@@ -29,12 +29,12 @@ module GoogleIntegration
     end
   end
 
-  class ConnectWithFacebook
+  class WithFacebook
     def publish_message
     end
   end
 
-  class ConnectWithGooglPlus
+  class WithGooglePlus
     def publish_message
     end
   end
