@@ -9,8 +9,6 @@ module GoogleIntegration
     attr_accessor :connected
 
     def initialize
-      puts "hello"
-      puts Env.user_name
       # Logs in.
       # You can also use OAuth. See document of
       # GoogleDrive.login_with_oauth for details.
